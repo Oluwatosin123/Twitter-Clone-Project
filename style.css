@@ -232,13 +232,14 @@ body {
   grid-template-rows: repeat(2, min-content) 1fr;
   grid-row-gap: 1.5rem;
 }
-/*end of login page nav */
+
 .login-page-nav {
   grid-column: 1 / -1;
   grid-row: 1 / 2;
   background-color: #fff;
   padding: 2.5rem 0;
   box-shadow: 0 0 0.7rem rgba(0, 0, 0, 0.3);
+  z-index: 1;
 }
 
 .login-page-nav ul {
@@ -298,6 +299,7 @@ body {
   font-size: 2rem;
   margin-right: 0.5rem;
 }
+/*end of login page nav */
 
 /* start of log in */
 .login {
@@ -405,6 +407,7 @@ padding: 2rem;
 text-align: center;
 box-shadow: 0 0 0.7rem rgba(0, 0, 0, 0.3);
 border-radius: 0 0 1rem 1rem;
+display: none;
 }
 
 .login-modal .login-modal-icon {
@@ -414,6 +417,12 @@ border-radius: 0 0 1rem 1rem;
   font-size: 1.3rem;
   color: #868383;
   cursor: pointer;
+}
+
+.login-modal p {
+  margin: 2rem 1rem 0 1rem;
+  font-size: 1.6rem;
+  color: #868383;
 }
 /*end login modal */
 /* end of 2nd page login page */
