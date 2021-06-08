@@ -391,7 +391,31 @@ margin-top: 2rem;
   text-decoration: none;
   color: #1aa1f5;
 }
-/*end login */
+/*end of login */
+
+/* login modal */
+.login-modal {
+position: fixed;
+top: 11.5rem;
+left: 50%;
+transform: translate(-50%, -50%);
+background-color: #fff;
+width: 70rem;
+padding: 2rem;
+text-align: center;
+box-shadow: 0 0 0.7rem rgba(0, 0, 0, 0.3);
+border-radius: 0 0 1rem 1rem;
+}
+
+.login-modal .login-modal-icon {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  font-size: 1.3rem;
+  color: #868383;
+  cursor: pointer;
+}
+/*end login modal */
 /* end of 2nd page login page */
 
 /* feeds page */
