@@ -42,7 +42,7 @@ body {
   color: #fff;
 }
 
-.left-content i {
+.left-content .left-content-icons {
   font-size: 3rem;
   margin-right: 2rem;
 }
