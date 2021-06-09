@@ -101,8 +101,8 @@
       <div class="login-content">
         <h2>Log in to Twirrer</h2>
         <form class="login-form">
-          <input type="text" placeholder="phone, email or username" />
-          <input type="password" placeholder="password" />
+          <input type="text" placeholder="phone, email or username" class="login-user-info" />
+          <input type="password" placeholder="password" class="login-password" />
           <div>
             <button type="button" class="login-form-btn">Log In</button>
             <input type="checkbox" class="login-form-checkbox" id="check" />
@@ -120,7 +120,7 @@
 
     <!-- login modal -->
     <div class="login-modal">
-      <i class="fas fa-times login-modal-icon"></i>
+      <i  class="fas fa-times login-modal-icon"></i>
       <p>Username and Passsword you entered did not match our records. Please double check and try again</p>
     </div>
     <!-- end of login modal -->
@@ -354,6 +354,88 @@
       +<i class="fas fa-feather-alt"></i>
       Post
     </button>
+
+    <!-- post modal -->
+      <div class="modal-wrapper">
+        <div class="modal">
+            <div class="modal-header">
+                <i class="modal-header-i fas fa-times"></i>
+                <button type="button">Post</button>
+            </div>
+            <div class="modal-body">
+              <div class="modal-img">
+                <img src="images/user1.jpg"/>
+              </div>
+              <input type="text" placeholder="What's happening" class="modal-input">
+              <i class="modal-body-i far fa-smile"></i>
+            </div>
+            <div class="modal-footer">
+              <div class="modal-mother-icons">
+                  <i class="modal-mother-icons-i far fa-image"></i>
+                  <i class="modal-mother-icons-i fas fa-camera"></i>
+                  <i class="modal-mother-icons-i far fa-chart-bar"></i>
+                  <span>+</span>
+              </div>
+            </div>
+        </div>
+      </div>
+    <!--end of post modal -->
+
+      <!-- sidebar -->
+        <div class="sidebar-wrapper">
+          <div class="sidebar">
+              <div class="sidebar-header">
+                <h2>Account info</h2>
+                <i class="sidebar-header-icon  fas fa-times"></i>
+              </div>
+              <div class="sidebar-user">
+                <div class="sidebar-user-img">
+                  <img src="/images/user1.jpg">
+                </div>
+                <span>+</span>
+              </div>
+              <div class="sidebar-user-info">
+                <h4>Ajose Tosin</h4>
+                <p>@ajosetosin</p>
+              </div>
+              <div class="following">
+                <p class="following-paragraph">
+                  <span>711</span> Following
+                </p>
+                <p class="following-paragraph">
+                  <span>7.5k</span> Followers
+                </p>
+              </div>
+              <div class="sidebar-list-1">
+                <ul>
+                  <li><a href="#">
+                    <i class="sidebar-list-1-icons fas fa-user"></i>Profile
+                  </a></li>
+                  <li><a href="#">
+                    <i class="sidebar-list-1-icons far fa-list-alt"></i>List
+                  </a></li>
+                  <li><a href="#">
+                    <i class="sidebar-list-1-icons far fa-bookmark"></i>Bookmarks
+                  </a></li>
+                  <li><a href="#">
+                    <i class="sidebar-list-1-icons fab fa-adversal"></i>Ads
+                  </a></li>
+                  <li><a href="#">
+                    <i class="sidebar-list-1-icons fas fa-chart-line"></i>Analytics
+                  </a></li>
+                </ul>
+              </div>
+              <div class="sidebar-list-2">
+                <ul>
+                  <li><a href="#">Settings</a></li>
+                  <li><a href="#">Help Center</a></li>
+                  <li><a href="#">Log Out</a></li>
+                </ul>
+              </div>
+          </div>
+        </div>
+      <!--end of sidebar -->
+
   </section>
   <!--end of feeds page -->
 
