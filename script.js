@@ -59,7 +59,6 @@ btnTop.addEventListener('click', () => {
     loginFormBtn.addEventListener('click', () => {
         const loginUserInfo = document.querySelector('.login-user-info');
         const loginPassword = document.querySelector('.login-password');
-        alert('Hello you are awesome')
 
         if (loginUserInfo.value !== "" && loginPassword !== "") {
             loginPage.style.display = 'none';
